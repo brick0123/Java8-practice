@@ -1,4 +1,4 @@
-package constructor_references;
+package functional_interface.constructor_references;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

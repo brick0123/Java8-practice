@@ -1,4 +1,4 @@
-package andthen_compose;
+package functional_interface.constructor_references.andthen_compose;
 
 public class Address {
     private String country;
