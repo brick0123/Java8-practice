@@ -1,4 +1,4 @@
-package chap14.and_or_negate_isequal;
+package and_or_negate_isequal;
 
 import java.util.function.IntPredicate;
 

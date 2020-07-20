@@ -1,4 +1,4 @@
-package chap14.and_or_negate_isequal;
+package and_or_negate_isequal;
 
 import java.util.function.Predicate;
 
@@ -11,10 +11,7 @@ public class PredicateIsEquals {
 
 
         predicate = Predicate.isEqual("JAVA8");
-        System.out.println("JAVA8 JAVA8 : " + predicate.test("JAVA8") );
-
-
-
-
+        System.out.println("JAVA8 JAVA8 : " + predicate.test("JAVA8"));
+        
     }
 }
