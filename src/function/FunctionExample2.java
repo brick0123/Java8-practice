@@ -18,7 +18,6 @@ public class FunctionExample2 {
 
         System.out.println();
     }
-
     public static double avg(ToIntFunction<Student> function) {
         int sum = 0;
 
