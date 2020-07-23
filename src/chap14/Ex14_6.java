@@ -33,4 +33,13 @@ public class Ex14_6 {
         
     }
 
+    public static void copy(){
+        System.out.println("hello");
+    }
+    public static void pluse(){
+        System.out.println("hello");
+    }
+
+
+
 }
