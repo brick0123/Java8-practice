@@ -23,7 +23,7 @@ public class Optinal {
         OptionalInt optInt2 = OptionalInt.empty();        // 빈 객체를 생성
 
         System.out.println(optInt1.isPresent());    // true
-        System.out.println(optInt2.isPresent());    // true
+        System.out.println(optInt2.isPresent());    // false
 
         System.out.println(optInt1.getAsInt());
 //        System.out.println(optInt2.getAsInt()); // NoSuchElementException
