@@ -1,12 +1,12 @@
 package stream;
 
-public class OlineClass {
+public class OnlineClass {
     private Integer id;
     private String title;
     private boolean closed;
 
 
-    public OlineClass(Integer id, String title, boolean closed) {
+    public OnlineClass(Integer id, String title, boolean closed) {
         this.id = id;
         this.title = title;
         this.closed = closed;
