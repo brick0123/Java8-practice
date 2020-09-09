@@ -47,7 +47,6 @@ public class TimeApp {
         Instant plus2 = now2.plus(10, ChronoUnit.SECONDS);
 //        now2.plus(10, ChronoUnit.DAYS); // immutable하기 때문에 변경되지 않는다!!!!!!!!!! 새로운 인스턴스를 만들어야함
         Duration between = Duration.between(now2, plus2);
-        System.out.println(between.getSeconds());
 
         // formatting
         LocalDateTime now3 = LocalDateTime.now();
