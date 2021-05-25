@@ -1,4 +1,4 @@
-package method_references_argument;
+package methodreference;
 
 import java.util.function.ToIntBiFunction;
 

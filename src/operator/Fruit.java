@@ -1,4 +1,4 @@
-package minby_maxby;
+package operator;
 
 public class Fruit {
     public String name;

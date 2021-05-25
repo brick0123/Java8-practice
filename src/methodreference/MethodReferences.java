@@ -1,4 +1,4 @@
-package method_references;
+package methodreference;
 
 import java.util.function.IntBinaryOperator;
 

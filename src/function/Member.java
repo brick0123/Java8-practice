@@ -1,4 +1,4 @@
-package functional_interface.constructor_references;
+package function;
 
 public class Member {
     private String name;

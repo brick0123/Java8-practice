@@ -1,11 +1,13 @@
-package functional_interface.constructor_references.andthen_compose;
+package function;
 
-public class Member {
+import function.Address;
+
+public class ConsumerMember {
     private String name;
     private String id;
     private Address address;
 
-    public Member(String name, String id, Address address) {
+    public ConsumerMember(String name, String id, Address address) {
         this.name = name;
         this.id = id;
         this.address = address;

@@ -1,4 +1,4 @@
-package and_or_negate_isequal;
+package predicate;
 
 import java.util.function.Predicate;
 

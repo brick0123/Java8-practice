@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.Queue;
 import java.util.stream.Stream;
 
-public class Ex14_5 {
+public class Ex5 {
     public static void main(String[] args) {
         Stream<Student> studentStream = Stream.of(
                     new Student("이자바", 3, 300),

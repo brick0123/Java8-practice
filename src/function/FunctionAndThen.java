@@ -1,12 +1,12 @@
-package functional_interface.constructor_references.andthen_compose;
+package function;
 
 import java.util.function.Function;
 
 public class FunctionAndThen {
     public static void main(String[] args) {
-        Function<Member, Address> functionA;
+        Function<ConsumerMember, Address> functionA;
         Function<Address, String> functionB;
-        Function<Member, String> functionAB;
+        Function<ConsumerMember, String> functionAB;
 
 
         functionA = m -> m.getAddress();
@@ -14,12 +14,12 @@ public class FunctionAndThen {
 
         functionAB = functionA.andThen(functionB);
 
-        String city = functionAB.apply(new Member("홍길동","hing", new Address("한국","서울")));
+        String city = functionAB.apply(new ConsumerMember("홍길동","hing", new Address("한국","서울")));
 
         System.out.println("거주 도시 " + city);
 
         functionAB =  functionB.compose(functionA);
-        city = functionAB.apply(new Member("홍길동","hing", new Address("한국","서울")));
+        city = functionAB.apply(new ConsumerMember("홍길동","hing", new Address("한국","서울")));
 
         System.out.println("거주 도시 " + city);
     }

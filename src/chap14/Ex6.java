@@ -6,7 +6,7 @@ import java.util.OptionalInt;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
-public class Ex14_6 {
+public class Ex6 {
     public static void main(String[] args) {
         File[] fileArr = {new File("Ex1.java"), new File("Ex1.bak"), new File("Ex2.java")};
         

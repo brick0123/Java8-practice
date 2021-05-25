@@ -1,4 +1,4 @@
-package method_references;
+package methodreference;
 
 public class Calculator {
     public static int staticMethod(int x, int y){
